@@ -6,5 +6,9 @@ public class Cat extends Animal{
 		super(type);
 		
 	}
+	
+	public void makeNoise() {
+		System.out.println("Meow Meow Meow");
+	}
 
 }

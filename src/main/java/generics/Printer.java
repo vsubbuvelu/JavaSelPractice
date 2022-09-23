@@ -13,6 +13,14 @@ public class Printer {
 		
 		PrintInteger<String> p1 = new PrintInteger<>("hi there");
 		p1.printInteger();
+		Cat cat = new Cat("cat");
+		Animal an = new Animal("animal");
+		GenericsInExtends<Cat> g = new GenericsInExtends<Cat>(cat);
+		
+		g.printAnimalmakeNoise();
+		
+	
+		
 	}
 
 }
